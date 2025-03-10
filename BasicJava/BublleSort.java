@@ -6,7 +6,7 @@ public class BublleSort {
         int[] arr1={5,1,8,3,9,34,22};
         int length=arr.length;
         //sorting using bubllesort
-        //find the biggest number first eteration
+        //find the biggest number first  eteration and store that into last index of given array.
         for(int i=0;i<length;i++){
             for(int j=1;j<length-i;j++){
                 if(arr[j-1]>arr[j]){

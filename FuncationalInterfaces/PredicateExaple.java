@@ -9,7 +9,7 @@ class PredicateExaple {
         Predicate<String> predicateString=str-> str.contains("ji");
         
         System.out.println(predicate.test(11));
-         System.out.println(predicateString.test("ranjith"));
+        System.out.println(predicateString.test("ranjith"));
        Predi test1=num -> num<10;
         System.out.println(test1.test1(9));
     }
